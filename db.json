@@ -1,16 +1,103 @@
 {
-  "posts":[
+  "tasks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "Task 1",
+      "description": "Description 1",
+      "state": 1
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "description": "Description 2",
+      "state": 1
+    },
+    {
+      "id": 3,
+      "title": "Task 3",
+      "description": "Description 3",
+      "state": 2
+    },
+    {
+      "id": 4,
+      "title": "Task 4",
+      "description": "Description 4",
+      "state": 2
+    },
+    {
+      "id": 5,
+      "title": "Task 5",
+      "description": "Description 5",
+      "state": 3
+    },
+    {
+      "id": 6,
+      "title": "Task 6",
+      "description": "Description 6",
+      "state": 3
+    },
+    {
+      "id": 8,
+      "title": "234234",
+      "description": "2342343",
+      "state": 3
     }
   ],
-  "comments" : [
+  "users": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "David",
+      "title": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Lee",
+      "title": "PM"
+    },
+    {
+      "id": 3,
+      "name": "Tim",
+      "title": "QC"
+    },
+    {
+      "id": 4,
+      "name": "Test",
+      "title": "Test t"
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "title": "Meeting 1",
+      "userId": "3",
+      "creator": "Tim",
+      "description": "Stand up",
+      "location": "Osaka",
+      "date": "2022-03-05T00:00:00.000Z",
+      "startTime": "09:00",
+      "endTime": "11:30"
+    },
+    {
+      "id": 2,
+      "title": "Meeting 2",
+      "userId": "3",
+      "creator": "Tim",
+      "description": "Stand up",
+      "location": "New York",
+      "date": "1970-01-01T00:00:00.000Z",
+      "startTime": "10:00",
+      "endTime": "12:30"
+    },
+    {
+      "title": "Meeting 3",
+      "userId": "2",
+      "description": "Catch up",
+      "location": "HCM",
+      "date": "2022-02-22T17:00:00.000Z",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "creator": "Lee",
+      "id": 3
     }
   ]
 }
