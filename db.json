@@ -35,12 +35,6 @@
       "title": "Task 6",
       "description": "Description 6",
       "state": 3
-    },
-    {
-      "id": 8,
-      "title": "234234",
-      "description": "2342343",
-      "state": 3
     }
   ],
   "users": [
@@ -58,11 +52,6 @@
       "id": 3,
       "name": "Tim",
       "title": "QC"
-    },
-    {
-      "id": 4,
-      "name": "Test",
-      "title": "Test t"
     }
   ],
   "schedules": [
